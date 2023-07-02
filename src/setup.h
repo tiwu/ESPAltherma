@@ -1,7 +1,7 @@
 //Setup your credentials and mqtt info here:
 //only change the value between the " " leave the rest of the line untouched.
-#define WIFI_SSID "SSID"//**Your SSID here**
-#define WIFI_PWD "password"//**Your password here** leave empty if open (bad!)
+#define WIFI_SSID "TWWN_UnWired"//**Your SSID here**
+#define WIFI_PWD "(TW).(WN)+39-101"//**Your password here** leave empty if open (bad!)
 
 //Uncomment this to set a static IP instead of DHCP for the ESP (Separate by commas instead of dots)
 //#define WIFI_IP 192, 168, 0, 5
@@ -10,9 +10,9 @@
 //#define WIFI_PRIMARY_DNS 8, 8, 8, 8     //A DNS address is needed, even if it's not used 
 //#define WIFI_SECONDARY_DNS 8, 8, 4, 4   //A DNS address is needed, even if it's not used
 
-#define MQTT_SERVER "192.168.1.4"//**IP address here of your MQTT server**
-#define MQTT_USERNAME ""//leave empty if not set (bad!)
-#define MQTT_PASSWORD ""//leave empty if not set (bad!)
+#define MQTT_SERVER "192.168.0.153"//**IP address here of your MQTT server**
+#define MQTT_USERNAME "espaltherma"//leave empty if not set (bad!)
+#define MQTT_PASSWORD "espaltherma"//leave empty if not set (bad!)
 #define MQTT_PORT 1883
 //#define MQTT_ENCRYPTED // uncomment if MQTT connection is encrypted via TLS
 
@@ -95,7 +95,7 @@
 //#include "def/Altherma(EPRA E ETSH-X 16P30-50 E series 8-12kW-ECH2O).h"
 //#include "def/Altherma(EPRA E ETV16-ETB16-ETVZ16 E_EJ series 8-12kW).h"
 //#include "def/Altherma(ERGA D EHSH-X P30-50 D series 04-08kW-ECH2O).h"
-//#include "def/Altherma(ERGA D EHV-EHB-EHVZ DA series 04-08kW).h"
+#include "def/Altherma(ERGA D EHV-EHB-EHVZ DA series 04-08kW).h"
 //#include "def/Altherma(ERGA D EHV-EHB-EHVZ DJ series 04-08 kW).h"
 //#include "def/Altherma(ERGA E EHSH-X P30-50 E_EF series 04-08kW-ECH2O).h"
 //#include "def/Altherma(ERGA E EHV-EHB-EHVZ E_EJ series 04-08kW).h"
@@ -105,7 +105,7 @@
 //#include "def/Altherma(Hybrid).h"
 //#include "def/Altherma(LT_CA_CB_04-08kW).h"
 //#include "def/Altherma(LT_CA_CB_11-16kW).h"
-//#include "def/Altherma(LT_CB_04-08kW Bizone).h"
+//include "def/Altherma(LT_CB_04-08kW Bizone).h"
 //#include "def/Altherma(LT_CB_11-16kW Bizone).h"
 //#include "def/Altherma(LT_EBLQ-EBLQ-CA series 5-7kW Monobloc).h"
 //#include "def/Altherma(LT_EBLQ-EDLQ-CA series 11-16kW Monobloc).h"
