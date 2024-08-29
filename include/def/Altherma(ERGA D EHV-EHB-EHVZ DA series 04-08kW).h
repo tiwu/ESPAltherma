@@ -64,7 +64,7 @@ LabelDef labelDefs[] = {
 //{0x20,8,105,2,1,"Heat exchanger mid-temp."},
 //{0x20,10,105,2,1,"Liquid pipe temp.(R6T)"},
 //{0x20,12,105,2,1,"Heat sink temp."},
-//{0x20,14,105,2,2,"Pressure sensor"},
+{0x20,14,105,2,2,"Pressure sensor"},
 //{0x20,14,405,2,1,"Pressure sensor(T)"},
 {0x21,0,105,2,-1,"INV primary current (A)"},
 {0x21,2,105,2,-1,"INV secondary current (A)"},
